@@ -1,0 +1,382 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clus",
+				"clusterOptions"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Snippet: Javascript Instanciable Class Squeleton"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"emme",
+				"Emmet: Reload Extensions"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable",
+				"SublimeLinter: Enable Linter"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/config.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/shared.service.module.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/public/template/forget.password.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/modules/custom/roomeez_block_banner/templates/roomeez_block_banner_header.tpl.php",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/modules/custom/roomeez_block_hero/templates/roomeez_block_hero_video.tpl.php",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/service/gplace.service.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/service/references/references.const.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/edition.description.looking.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/announcement/announcement.header.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/front.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/template/edition.description.looking.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/tasks/notify.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/package.json",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/announcement/announcement.module.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/template/edition.final.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/controller/window.manager.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/service/inbox/inbox.proxy.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/edition.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/edition.description.have.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/inbox/inbox.router.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/public/login.modal.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/public/not.logged.modal.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/public/register.modal.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/directive/datepicker.wrapper.directive.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/search/search.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/directive/compile.html.directive.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/public/pre.search.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/components/angular-google-places-autocomplete/src/autocomplete.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/service/upload.service.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/credentials.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/notifications.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/profile.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/template/profile.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/template/edition.pics.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/shared.module.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/announcement/announcement.preview.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/bookmarks/bookmarks.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/inbox/thread.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/directive/gmaps.list.directive.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/service/visit/visit.proxy.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/visit/visit.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/creation.router.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/public/fb.login.directive.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/public/forget.password.modal.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/common.module.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/public/facebook.service.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/service/user/user.model.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/edition.router.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/service/search/search.proxy.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared/directive/directives.decorator.module.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/edition.pics.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/creation.step.manager.js",
+		"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/roomeez.sublime-project",
+		"/Users/davidostermann/Documents/JOB/pswd/cordonblanc.txt",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/zee/map/map-cluster.directive.js",
+		"/Users/davidostermann/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/davidostermann/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/zee/map/map-search.directive.js",
+		"/Users/davidostermann/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/davidostermann/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/davidostermann/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/scss/components/_loader.scss",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/server/views/partials/loader.swig",
+		"/Users/davidostermann/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/app/search.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/rdf_piquenique.sublime-project",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/app/search-map.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/concours/map.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/guesser/guesser.model.js",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/auth/signup-modal.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/app/place-login.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/app/place-localisation-modal.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/guesser/start-modal.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/guesser/rules-modal.tpl.html",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/guesser/state.manager.js",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/concours/signup.controller.js",
+		"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf/concours/signup.tpl.html",
+		"/Volumes/SAUVEGARDE/do-sauvegarde/npm-global-install.txt"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 150.0,
+		"where_history":
+		[
+			"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/scss",
+			"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js, -*.build.js, -*.min.js, -*/node_modules/",
+			"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js",
+			"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez",
+			"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/search",
+			"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/modules/custom",
+			"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez",
+			"/Users/davidostermann/Documents/JOB/git/Roomeez/share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/shared",
+			"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/zee",
+			"/Users/davidostermann/Documents/JOB/git/rdf_pique-nique/client/js/rdf",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_animate",
+			"TweenMax",
+			"@mixin for-desktop-and-up",
+			"for-desktop-and-up",
+			"panel--member",
+			"nodeType",
+			"UserProxy.init",
+			"GplaceService",
+			"signals",
+			"ResultList.",
+			"ResultList",
+			"partnership",
+			"video",
+			"debugger;",
+			"console",
+			"console.log",
+			".upload(",
+			".upload",
+			"UploadService.upload",
+			"scrollToTop",
+			"placesService",
+			"PlacesService",
+			"AutocompleteService",
+			"language",
+			"autocompleteOptions",
+			"auto",
+			"request",
+			"$scope.options",
+			"location",
+			"\"",
+			"substr",
+			"path",
+			"paths",
+			"console.log",
+			"cluster",
+			"12",
+			"10",
+			"zee-map-cluster",
+			"clusterOptions",
+			"modal_backdrop",
+			"errorMessage"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 48.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 92.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"localstoragemodel",
+				"share/assets/js/roomeez/shared/service/local.storage.model.js"
+			],
+			[
+				"roomeezblockbanner",
+				"custom/roomeez_block_banner/templates/roomeez_block_banner_header.tpl.php"
+			],
+			[
+				"inboxproxy",
+				"share/assets/js/roomeez/shared/service/inbox/inbox.proxy.js"
+			],
+			[
+				"usermodel",
+				"share/assets/js/roomeez/shared/service/user/user.model.js"
+			],
+			[
+				"editionrouter",
+				"share/assets/js/roomeez/account/edition.router.js"
+			],
+			[
+				"datepicker.wrapper.directive.js",
+				"share/assets/js/roomeez/shared/directive/datepicker.wrapper.directive.js"
+			],
+			[
+				"common.mo",
+				"share/assets/js/roomeez/account/common.module.js"
+			],
+			[
+				"shared.mo",
+				"share/assets/js/roomeez/shared/shared.module.js"
+			],
+			[
+				"profilecontroller",
+				"share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/account/profile.controller.js"
+			],
+			[
+				"searchcontroller",
+				"share_dev_2013/public/sites/all/themes/share/assets/js/roomeez/search/search.controller.js"
+			],
+			[
+				"facebookservice",
+				"share/assets/js/roomeez/public/facebook.service.js"
+			],
+			[
+				"uploadservice",
+				"share/assets/js/roomeez/shared/service/upload.service.js"
+			],
+			[
+				"windowmanager",
+				"share/assets/js/roomeez/shared/controller/window.manager.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 323.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
