@@ -8,7 +8,7 @@ define( [
       stage: null,
       renderer: null,
       fullWidth: null,
-      fullHeight: null,
+      fullHeight: null
     };
     return _singleton;
 });

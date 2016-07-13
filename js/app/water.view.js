@@ -18,6 +18,10 @@ define( [
     _obj.prototype = Object.create(View.prototype);
     _obj.prototype.contructor = _obj;
 
+    _obj.prototype.activate = function() {
+      View.prototype.activate.call(this);
+    };
+
     _obj.prototype.setup = function() {
 
       View.prototype.setup.call(this);
@@ -47,18 +51,13 @@ define( [
 
       vespa.mask = mask;
 
-      this.container = new PIXI.Container();
-      this.container.addChild(decor);
-      this.container.addChild(vespa);
+      this.addChild(decor);
+      this.addChild(vespa);
 
       displacementFilter = new PIXI.filters.DisplacementFilter(displacementSprite);
-      this.container.filters = [displacementFilter];
+      this.filters = [displacementFilter];
       displacementFilter.scale.x = displacementFilter.scale.x = 25;
 
-    };
-
-    _obj.prototype.activate = function() {
-      View.prototype.activate.call(this);
     };
 
     _obj.prototype.resize = function(w, h) {

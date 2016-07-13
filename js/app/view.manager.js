@@ -3,33 +3,56 @@ define( [
   function() {
     'use strict';
 
+    var _persistentCollection = [];
     var _viewCollection = [];
     var _actives = [];
 
-    var _singleton = {
-        add: function(view) {
-          _viewCollection.push(view);
-        },
-        getViewBiId: function(id) {
-          return _.find(_viewCollection, {id: id});
-        },
-        setActive: function(view) {
-          _actives.push(view);
-          view.activate();
-        },
-        setInactive: function(view) {
-          _.pull(_actives, view);
-        },
-        resize: function(fullWidth, fullHeight) {
-          _actives.map( function(item) {
-            item.resize(fullWidth, fullHeight);
-          });
-        },
-        animate: function() {
-          _actives.map( function(item) {
-            item.animate();
-          });
-        }
+    var _manager = function() {
+      
     };
-    return _singleton;
+
+    _manager.prototype.add = function(view) {
+      _viewCollection.push(view);
+    };
+
+    _manager.prototype.addPersistent = function(view) {
+      _persistentCollection.push(view);
+    };
+
+    _manager.prototype.getViewBiId = function(id) {
+      return _.find(_viewCollection, {id: id});
+    };
+
+    _manager.prototype.getPersitentViewBiId = function(id) {
+      return _.find(_persistentCollection, {id: id});
+    };
+
+    _manager.prototype.setActive = function(view) {
+      _actives.push(view);
+      view.activate();
+    };
+
+    _manager.prototype.setInactive = function(view) {
+      _.pull(_actives, view);
+    };
+
+    _manager.prototype.resize = function(fullWidth, fullHeight) {
+      _actives.map( function(item) {
+        item.resize(fullWidth, fullHeight);
+      });
+      _persistentCollection.map( function(item) {
+        item.resize(fullWidth, fullHeight);
+      });
+    };
+
+    _manager.prototype.animate = function() {
+      _actives.map( function(item) {
+        item.animate();
+      });
+      _persistentCollection.map( function(item) {
+        item.animate();
+      });
+    };
+
+    return _manager;
 });
