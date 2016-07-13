@@ -4,11 +4,9 @@ define( [
   function(View) {
     'use strict';
 
-    var _hamburger;
-    var _nav;
-
     var _obj = function(id) {
-      View.call(this, id);
+      View.call(this, id, true);
+      //View.call(this, id, true);
     };
     _obj.prototype = Object.create(View.prototype);
     _obj.prototype.contructor = _obj;
@@ -22,13 +20,13 @@ define( [
 
       console.log('setup: menu');
 
-      _nav = _drawNavContainer();
-      _hamburger = _drawHamburger();
+      this.nav = _drawNavContainer();
+      this.hamburger = _drawHamburger();
 
-      _nav.x = -_nav.width;
+      this.nav.x = -this.nav.width;
 
-      this.addChild(_hamburger);
-      this.addChild(_nav);
+      this.addChild(this.hamburger);
+      this.addChild(this.nav);
     };
 
     function _drawHamburger() {
@@ -76,12 +74,12 @@ define( [
       var nav = new PIXI.Container();
       nav.interactive = true;
 
-      var background = new PIXI.Graphics();
-      background.beginFill(0xFFFFFF);
-      background.drawRect(0, 0, 100, 100);
-      background.endFill();
+      nav.bg = new PIXI.Graphics();
+      nav.bg.beginFill(0xFFFFFF);
+      nav.bg.drawRect(0, 0, 300, 100);
+      nav.bg.endFill();
 
-      nav.addChild(background);
+      nav.addChild(nav.bg);
 
       return nav;
     }
@@ -92,16 +90,19 @@ define( [
 
     function _openNav() {
       console.log('_openNav');
-      _nav.x = 0;
+      TweenMax.to(this.nav, 1, {x: 0, ease:Expo.easeOut});
     }
 
     function _closeNav() {
       console.log('_openNav');
-      _nav.x = -_nav.width;
+      this.nav.x = -this.nav.width;
     }
 
     _obj.prototype.resize = function(w, h) {
       View.prototype.resize.call(this, w, h);
+
+      this.nav.bg.height = h;
+
     };
 
     _obj.prototype.animate = function() {

@@ -10,9 +10,10 @@ define( [
       this.firstActivation = true;
 
       if(isManager) {
-        this.prototype.manager = new ViewManager();
+        this.manager = new ViewManager();
       }
     };
+    
     _view.prototype = Object.create(PIXI.Container.prototype);
     _view.prototype.contructor = _view;
 
