@@ -17,9 +17,6 @@ define( [
     _view.prototype = Object.create(PIXI.Container.prototype);
     _view.prototype.contructor = _view;
 
-    _view.prototype.id = null;
-    _view.prototype.firstActivation = null;
-
     _view.prototype.setup = function() {
       console.log('setup: view');
     };

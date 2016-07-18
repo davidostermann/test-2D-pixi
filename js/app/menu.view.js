@@ -1,13 +1,16 @@
 define( [
-    './view'
+    './view',
+    './close.button'
   ],
-  function(View) {
+  function(View, CloseButton) {
     'use strict';
 
     var _obj = function(id) {
       View.call(this, id, true);
-      //View.call(this, id, true);
+      this.nav = null;
+      this.hamburger = null;
     };
+
     _obj.prototype = Object.create(View.prototype);
     _obj.prototype.contructor = _obj;
 
@@ -18,18 +21,18 @@ define( [
     _obj.prototype.setup = function() {
       View.prototype.setup.call(this);
 
-      console.log('setup: menu');
-
-      this.nav = _drawNavContainer();
-      this.hamburger = _drawHamburger();
+      this.nav = this._drawNavContainer();
+      this.hamburger = this._drawHamburger(); 
 
       this.nav.x = -this.nav.width;
 
       this.addChild(this.hamburger);
       this.addChild(this.nav);
+
+      //this._openNav();
     };
 
-    function _drawHamburger() {
+    _obj.prototype._drawHamburger = function() {
       console.log('_drawHamburger');
       var hamb = new PIXI.Container();
       hamb.interactive = true;
@@ -45,32 +48,23 @@ define( [
       graphics.drawRoundedRect(10, 28, 30, 3, 2); 
       graphics.endFill();
 
+      /** /
       hamb.on('mousedown', onButtonDown)
-      .on('mouseup', onButtonUp)
-      .on('mouseupoutside', onButtonUp)
-      .on('touchstart', onButtonDown)
-      .on('touchend', onButtonUp)
-      .on('touchendoutside', onButtonUp);
+            .on('mouseup', onButtonUp)
+            .on('mouseupoutside', onButtonUp)
+            .on('touchstart', onButtonDown)
+            .on('touchend', onButtonUp)
+            .on('touchendoutside', onButtonUp);
+      /**/
+
+      hamb.on('click', this._openNav.bind(this));
 
       hamb.addChild(graphics);
 
       return hamb;
-    }
+    };
 
-    var touched = false;
-
-    function onButtonDown() {
-      touched = true;
-    }
-
-    function onButtonUp() {
-      if(touched) {
-        _openNav();
-        touched = false;
-      }
-    }
-
-    function _drawNavContainer() {
+    _obj.prototype._drawNavContainer = function() {
       var nav = new PIXI.Container();
       nav.interactive = true;
 
@@ -81,22 +75,37 @@ define( [
 
       nav.addChild(nav.bg);
 
+      nav.closeBtn = new CloseButton();
+      nav.closeBtn.x = 240;
+      nav.closeBtn.y = 20;
+      nav.addChild(nav.closeBtn);
+
+      nav.closeBtn.on('click', this._closeNav.bind(this));
+
       return nav;
-    }
+    };
 
-    function _drawCloseButton() {
+    /** /
+    var touched = false;
+        function onButtonDown() {
+          touched = true;
+        }
+    
+        function onButtonUp() {
+          if(touched) {
+            _openNav();
+            touched = false;
+          }
+        }
+    /**/
 
-    }
-
-    function _openNav() {
-      console.log('_openNav');
+    _obj.prototype._openNav = function() {
       TweenMax.to(this.nav, 1, {x: 0, ease:Expo.easeOut});
-    }
+    };
 
-    function _closeNav() {
-      console.log('_openNav');
-      this.nav.x = -this.nav.width;
-    }
+    _obj.prototype._closeNav = function() {
+      TweenMax.to(this.nav, 1, {x: -this.nav.width, ease:Expo.easeOut});
+    };
 
     _obj.prototype.resize = function(w, h) {
       View.prototype.resize.call(this, w, h);
